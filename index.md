@@ -1,1 +1,5 @@
-main page
+Welcome!
+
+Please mind the dust - I'm working on this site. 
+
+In the mean time, you can find me as [BeeTalbs on Twitter](https://twitter.com/BeeTalbs)
