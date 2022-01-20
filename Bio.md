@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Bio"
-permalink: https://bmtalbot.github.io/
+permalink: https://bmtalbot.github.io/Bio
 ---
 Hi, I am Brooke! I am a molecular epidemiologist working on my PhD at Emory through the Population Biology, Ecology, and Evolution Program. 
 I am a member of Tim Read's lab, where we focus primarily on the evolution of bacterial pathogens and work to understand patterns of transmission, 
