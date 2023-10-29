@@ -1,3 +1,6 @@
+---
+title: "Welcome!"
+---
 Welcome!
 
 Please mind the dust - I'm working on this site. 
