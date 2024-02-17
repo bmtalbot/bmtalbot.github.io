@@ -1,0 +1,116 @@
+---
+title: "Personal_Timeline"
+author: "Brooke Talbot"
+---
+
+This R code was used to generate the image in Bubblegum and Paperclips post ["Hello World!"]()
+```{r}
+
+library(tidyverse)
+library(scales)
+library(lubridate)
+
+#creating the datatable
+
+Milestone <- c("Earned BS\nfrom GWU","Started as\nResearch Tech\nat Children's National","Earned MS\nfrom GWSPH","Started CSTE\nApplied Epidemiology\nFellowship","Started PhD\nat Emory")
+myDate <- c("May 1, 2015", "August 1, 2015", "May 1,2018","August 1, 2018","August 1, 2020")
+Month <- c("May", "August", "May","August","August")
+
+data <- cbind(Milestone, myDate, Month)
+data <- as.data.frame(data)
+
+data$myDate <- as.Date(data$myDate, format = "%B %d, %Y")
+
+
+milestone_levels <- c("Earned BS\nfrom GWU","Started as\nResearch Tech\nat Children's National","Earned MS\nfrom GWSPH","Started CSTE\nApplied Epidemiology\nFellowship","Started PhD\nat Emory")
+#milestone_colors <- c("#0070C0", "#00B050", "#FFC000", "#C00000", "#E933FF") 
+milestone_colors <- c("#32648EFF", "#238A8DFF", "#29AF7FFF", "#B8DE29FF", "#FDE725FF") 
+milestone_shapes <- c("0","1","2","3","4","5")
+
+## Set positions for the labels
+positions <- c(-0.5, 0.3, -.5, .6, -1.0, 1.0)
+
+## Allows for labels to alternate above and below the timeline
+directions <- c(-1, 1)
+
+## creates new dataframe for the labels and lines
+line_pos <- data.frame(
+  "date"=unique(data$myDate),
+  "position"=rep(positions, length.out=length(unique(data$myDate))),
+  "direction"=rep(directions, length.out=length(unique(data$myDate)))
+)
+
+data3 <- left_join(x=data, y=line_pos, by= c("myDate"="date"))
+data3 <- data3[with(data3, order(myDate, Milestone)), ]
+
+
+text_offset <- 0.01
+
+##adjust the last position, custom
+data3$position[5] <- 0.4
+data3$direction[5] <- -1
+
+## adjusts for the number of timepoints you want to include that share a year
+data3$year_count <- ave(data3$myDate==data3$myDate, data3$myDate, FUN=cumsum)
+
+data3$text_position <- (data3$year_count * text_offset * data3$direction) + data3$position
+data3$Y2 <- as.Date(data3$myDate,'%Y')
+data3$text_position[which(data3$text_position > 0)] <- data3$text_position[which(data3$text_position > 0)] + 0.09
+
+## 2 years gives some nice buffer for the text labels
+year_buffer <- 2
+
+##120 days subtracted hardcoded to get to January
+year_date_range <- seq(min(data3$myDate - 120, na.rm = TRUE) , max(data3$Y2 + years(year_buffer), na.rm = TRUE), by='1 year')
+
+year_format <- format(year_date_range, '%Y')
+year_data3 <- data.frame(year_date_range, year_format)
+
+
+#### PLOT ####
+
+timeline_plot<-ggplot(data3,aes(x=myDate,y=0, col=Milestone))
+timeline_plot<-timeline_plot+labs(col="Milestone")
+
+timeline_plot<-timeline_plot+scale_color_manual(values=milestone_colors, labels=milestone_levels, drop = FALSE)
+timeline_plot<-timeline_plot+scale_y_continuous() + ylim(-1,1)
+timeline_plot<-timeline_plot+theme_classic()
+
+# Plot horizontal black line for timeline
+timeline_plot<-timeline_plot+geom_hline(yintercept=0, 
+                                        color = "#F0E6D7", size=0.3)
+
+# Plot vertical segment lines for milestones
+timeline_plot<-timeline_plot+geom_segment(data=data3, aes(y=position, yend=0, xend=Y2), color='#F0E6D7', size=0.4, linetype = "dashed")
+
+
+# Plot scatter points at zero and date
+timeline_plot<-timeline_plot+geom_point(aes(y=0), size=3)
+
+
+# Don't show axes, appropriately position legend
+timeline_plot<-timeline_plot+theme(axis.line.y=element_blank(),
+                                   axis.text.y=element_blank(),
+                                   axis.title.x=element_blank(),
+                                   axis.title.y=element_blank(),
+                                   axis.ticks.y=element_blank(),
+                                   axis.text.x =element_blank(),
+                                   axis.ticks.x =element_blank(),
+                                   axis.line.x =element_blank(),
+                                   panel.background = element_rect(fill = "grey15", colour = "#F0E6D7", linetype = "dashed"),
+                                   legend.position = "none"
+)
+
+
+# Show text for each month
+timeline_plot<-timeline_plot+geom_text(data=year_data3, aes(x=year_date_range,y=-0.1,label=year_format),size=4,vjust=0.5,
+                                       hjust=0.8, color='#F0E6D7', angle=90, fontface = "bold")
+# Show year text
+timeline_plot<-#timeline_plot+geom_text(data=data3, aes(x=Year,y=-0.2,label=Y2, fontface="bold"),size=3, color='black')
+
+# Show text for each milestone
+timeline_plot<-timeline_plot+geom_text(aes(y=text_position, label=Milestone, size=2, hjust=-0.1))
+
+timeline_plot
+
+```
