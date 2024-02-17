@@ -7,7 +7,7 @@ draft: true
 ---
 Welcome to Bubble Gum and Paperclips. This space is dedicated to the unpolished side of science that is in a constant state of progress.  Here you will find examples of different ways to visualize data and code in R, as well as reflections on building a career in public health microbiology and bioinformatics. I'd like to intrucude myself, and a little about my career journey so far: 
 
-<img src="/assets/img/career_timeline_plot.png" alt="A timeline plot with labels from 2015 to 2022 showing different career milestones"  width="310" height="350">
+<img src="/assets/img/career_timeline_plot.png" alt="A timeline plot with labels from 2015 to 2022 showing different career milestones">
 
 
 I'm a biologist by training and each step along the way has been a unique zag. I started in honey bee research, but pivoted to biomedical research after graduating with my BS in biology from George Washington University. After an engaging time at Children's National Center for Neuroscience Research, and many hours working with mice, I followed my interests into ifectious diseases and earned my MS in Public Health Microbiology and Emerging Infectious Diseases. I achieved a spot as a fellow for the Council of State and Territorial Epidemiologists' Applied Epidemiology Fellowship and gratefully learned all about the foodborne pathogens of New York City and the inner workings of applied epidemiology. Today, I am a PhD candidate at Emory University where my research focuses on measuring what factors allow pathogens to adapt to their hosts and how that changes or shapes their transmission. 
