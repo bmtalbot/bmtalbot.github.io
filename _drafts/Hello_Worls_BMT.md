@@ -5,6 +5,18 @@ date: 2024-2-17
 featured_image:
 draft: true
 ---
+<html>
+<head>
+<style>
+figcaption {
+  color: gray;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
 Welcome to Bubble Gum and Paperclips. This space is dedicated to the unpolished side of science that is in a constant state of progress.  Here you will find examples of different ways to visualize data and code in R, as well as reflections on building a career in public health microbiology and bioinformatics. I'd like to intrucude myself, and a little about my career journey so far: 
 
 <img src="/assets/img/career_timeline_plot.png" alt="A timeline plot with labels from 2015 to 2022 showing different career milestones" width="70%" height="70%" >
