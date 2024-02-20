@@ -5,7 +5,7 @@ date: 2024-2-17
 featured_image:
 draft: true
 ---
-Welcome to Bubble Gum and Paperclips. This space is dedicated to the unpolished side of science that is in a constant state of progress.  Here you will find examples of different ways to visualize data and code in R, as well as reflections on building a career in public health microbiology and bioinformatics. I'd like to intrucude myself, and a little about my career journey so far: 
+Welcome to Bubble Gum and Paperclips. This space is dedicated to the unpolished side of science that is in a constant state of progress.  Here you will find examples of different ways to visualize data, examples of coding solutions, and reflections on building a career in public health microbiology and bioinformatics. I'd like to intrucude myself and my career journey so far: 
 
 <img src="/assets/img/career_timeline_plot.png" alt="A timeline plot with labels from 2015 to 2022 showing different career milestones" width="80%" height="70%" >
 
@@ -20,9 +20,9 @@ While I am still building my own career, I think lighheartedly about my first st
   
 Scientists, including myself, love a "quick and dirty" test, and allow refinement to come later. As long as it is in the bounds of reality and ethics, this is quite a fun phase of scientific research! It's where one can see what approaches stand the test of time and how you can mark your progress. It's also the way to stay curious and come up with creative solutions to new problems. To me, it's also an excellent opportunity to find out what is going on im my research community. For coding, I think there is an amazing digital community. Even while putting this post together I referenced sites (*cough* Stack Overflow) which have the primary function of sharing solutions to problems for coders at all levels and across languages. It's fascinating to see the variety of approaches, and it's simultaneously interesting and heartbreaking to find out that no one has been able to answer a post for the same question that you have.  
 
-I think it's important to share the "bubble gum" of my work to remind scientists at all stages of their careers that there is no true linear path in research. There are weird side projects and failed experiments, bizarre code gymnastics and many nights were you think you're actually cooking up a conspiracy theory rather than testing a hypothesis. I hope that here I can reignight some of that fun of discovery by sharing different kinds of code and offering insights into my perspective as a scientist. I hope you'll have fun too! 
+I think it's important to share the "bubble gum" of my work to remind scientists at all stages of their careers that there is no true linear path in research. There are weird side projects and failed experiments, bizarre code gymnastics and many nights were you think you're actually cooking up a conspiracy theory rather than testing a hypothesis. I hope that here I can reignite some of that fun of discovery by sharing different kinds of code and offering insights into my perspective as a scientist. I hope you'll have fun too! 
 
-By the way, the source code for the timeline above was done using R and can be found [here](https://github.com/bmtalbot/bmtalbot.github.io/blob/main/post_code/Hello_World_Timeline), much of which I was able to learn from [this blog post](https://www.themillerlab.io/posts/timelines_in_r/).  
+By the way, the source code for the timeline above was done using R and can be found [here](https://github.com/bmtalbot/bmtalbot.github.io/blob/main/post_code/Hello_World_Timeline), much of which I was able to learn from [this blog post](https://www.themillerlab.io/posts/timelines_in_r/) put together by the Miller Lab at Massachusetts General Hospital. 
 
 
 
