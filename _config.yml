@@ -29,7 +29,6 @@ github_username:  bmtalbot
 
 # Build settings
 theme: minima
-  skin: solarized-dark
 plugins:
   - jekyll-feed
 
