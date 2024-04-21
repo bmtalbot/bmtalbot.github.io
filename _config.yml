@@ -10,21 +10,19 @@
 ############################
 
 # Name of website
-title: My website
+title: Bubblegum and Paperclips
 
 # Your name to show in the footer
-author: Some Person
+author: Brooke Talbot
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "About"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "bmtalbot.github.io"
 
 ################
 # --- Logo --- #
@@ -50,14 +48,14 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+ # email: "someone@example.com"
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+ # facebook: deanattali
+  github: bmtalbot
+  twitter: beetalbs
+#  patreon: DeanAttali
+#  youtube: "@daattali"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -99,8 +97,8 @@ share-links-active:
   vk: false
 
 # How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# Remove this if you don't want a link in the footer0
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
