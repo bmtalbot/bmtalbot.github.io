@@ -20,8 +20,8 @@ author: Brooke Talbot
 ###############################################
 
 navbar-links:
-  About Me: "About"
-  Resources:
+  About Me: "aboutme.md"
+  Publications: "publications.md"
   Author's home: "bmtalbot.github.io"
 
 ################
