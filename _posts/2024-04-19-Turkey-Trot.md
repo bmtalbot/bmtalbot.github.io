@@ -4,6 +4,7 @@ gh-repo: bmtalbot/bmtalbot.github.io
 title: "Solutions for Duplicated Data Using Turkey Trot Race Results"
 author: Brooke Talbot
 date: 2024-4-19
+thumbnail-img: "/assets/img/ReturnersStatic.png"
 ---
 Recently, I ran into a problem with my research data. I was working with a table of bacterial colony isolates that were whole genome sequenced a few times because of a variety of quality issues. Consequently, I needed to deduplicate some of the records, but the mix of dates, batch numbers, and quality metrics were all different and relative to the unique sample and its first problematic sequence.  As I stared at my duplicated data table almost panicking about the disticnt conditions, asking myself how I would get rid of the ones I didn't want and praying I would not have to write a loop, I remembered that I had solved this problem before! It was not for this scientific project, though. Instead, it was really just for fun.  
 
