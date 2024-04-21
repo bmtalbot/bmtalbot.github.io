@@ -4,6 +4,7 @@ gh-repo: bmtalbot/bmtalbot.github.io
 title: "Hello World!"
 author: Brooke Talbot
 date: 2024-4-1
+thumbnail-img: /assets/img/brooke_pump.png
 ---
 Welcome to Bubble Gum and Paperclips. This space is dedicated to the unpolished side of science that is in a constant state of progress.  Here you will find examples of different ways to visualize data, examples of coding solutions, and reflections on building a career in public health microbiology and bioinformatics. I'd like to intrucude myself and my career journey so far: 
 
