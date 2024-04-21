@@ -1,16 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About
 ---
+<img src="/assets/img/brooke_pump.png" alt="An image of a woman smiling widely with one arm wrapped around the model pump outside The John Snow Pub"  width="310" height="350">
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Hi, I am Brooke! I am a molecular epidemiologist working on my PhD at Emory through the Population Biology, Ecology, and Evolution Program. I am a member of [Dr. Tim Read's lab](https://emergent.emory.edu/), where we focus primarily on the evolution of bacterial pathogens and work to understand patterns of transmission, antibiotic resistance, and virulence through bioinformatic approaches. I use this space to share code, write about infectious diseases, and discuss graduate life and careers in public health. I also like bees. This is a work in progress - thanks for stoping by!
