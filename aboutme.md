@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+mathjax: true
 ---
 
 ![](https://bmtalbot.github,io/assets/img/brooke_pump.png){: .mx-auto.d-block :}
