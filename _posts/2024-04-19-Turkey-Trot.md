@@ -17,7 +17,7 @@ After digging around on some sites, I finally found an archive of results from t
 
 <img src="/assets/img/Turkey_Trot_cropped.gif" width="80%" height="70%" >
 
-I'm pretty proud of the way this turned out, having never worked with ```gganimate()``` before, and I learned a few new tricks for how to scrape data from a json file, which I have to thank my brother-in-law for helping me identify in the web inspection element of the page. Thanks Brian! For those interested, I've saved the whole R script [here](https://github.com/bmtalbot/TurkeyTrotData), for you to take a look at. 
+I'm pretty proud of the way this turned out, having never worked with ```gganimate()``` before, and I learned a few new tricks for how to scrape data from a json file, which I have to thank my brother-in-law for helping me identify those files in the web inspection element of the page. Thanks Brian! For those interested, I've saved the whole R script [here](https://github.com/bmtalbot/TurkeyTrotData), for you to take a look at. 
 
 I'd like to zoom in on the third panel, though, which was an unique challenge that required me to work with duplicated records to create a new variable to find all of my returning runners separate from runners who were doing this race for their first time
 
@@ -70,7 +70,7 @@ transition_states(year,  transition_length = 2, state_length = 1) +
 
 Snap back to today, springtime (actually just a little after "Marathon Monday" for those who celebrate). I broke out this old Turkey Trot code and changed around a few variables to suit my needs and my conditions. What's nice about this code is it's pretty generic, and the conditional functions can be built for any kind of logic you are interested in using for rowwise comparisons. In almost no time I had the sample IDs I wanted based on the relative conditions I was using for exclusion, and I was able to move on with my life without mannually filtering each sequence out by name. This grouping and filtering approach would be useful for any longitudinal datasets. I think it's very helpful for finding your subsets when the condition you want to sort on is relative to and individual. Some other scenarios I could see this helping to solve include: 
 1. Tracking which is the most abundant organism across a time set of metagenomes from the same source
-2. Figuring out whether something is an old or new infection based on previous test results (for those who work with syphillis serology, this one's for you!)
+2. Figuring out whether something is an old or new infection based on previous test results (eg serological values)
 3. Excluding records that don't fall within a specific time interval from the last record. 
 4. identifying variant fluctuations in a set of sequential genomes
 
