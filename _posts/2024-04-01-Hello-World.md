@@ -23,4 +23,4 @@ Scientists, including myself, love a "quick and dirty" test, and allow refinemen
 
 I think it's important to share the "bubble gum" of my work to remind scientists at all stages of their careers that there is no true linear path in research. There are weird side projects and failed experiments, bizarre code gymnastics and many nights were you think you're actually cooking up a conspiracy theory rather than testing a reasonable hypothesis. I hope that here I can reignite some of that fun of discovery by sharing different kinds of code and offering insights into my perspective as a scientist. I hope you'll have fun too! 
 
-By the way, the source code for the timeline above was done using R and can be found [here](https://github.com/bmtalbot/bmtalbot.github.io/blob/main/post_code/Hello_World_Timeline), much of which I was able to learn from [this blog post](https://www.themillerlab.io/posts/timelines_in_r/)
+By the way, the source code for the timeline above was done using R and can be found [here](https://github.com/bmtalbot/Hello_World_Timeline/tree/main), much of which I was able to learn from [this blog post](https://www.themillerlab.io/posts/timelines_in_r/)
