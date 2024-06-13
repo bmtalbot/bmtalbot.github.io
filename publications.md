@@ -18,7 +18,6 @@ Clinical Infectious Diseases, Volume 75, Issue 12, 15 December 2022, Pages 2104â
 **Talbot BM.** Love Sick: Identifying and Investigating Infectious Disease Outbreaks. [Oral Presentation] Biology on Tap Seminar Series, New York City, New York. February 12 (2020). 
 
 **Talbot BM**, Sunkara R, Peterson E, Fireteanu A, Liu Q, Latash J, Waechter H, Reddy V, Gutelius B. Evaluating the Impact of Multiplex PCR Use on Shiga Toxin-producing Escherichia coli (STEC) Surveillance, New York City, 2016â€“2018. [Oral presentation] CSTE Annual Conference, June 2-6 (2019). 
-DeMent J and Talbot BM. Quick and Dirty National Center for Biotechnology Information (NCBI). [Oral Presentation] CSTE Annual Conference, June 1-4 (2018).  
 
 **Talbot BM**, Jacko, NF, Petit III, RA, Pegues, DA, Shumaker, MJ, Read, TD, & David, MZ. Clonal transmission and recurrence of methicillin-resistant Staphylococcus aureus causing bloodstream infections in hospitalized adults detected using whole genome sequencing. [Poster]. 13th International Meeting on Microbial Epidemiological Markers. Sept 14-17 (2022). 
 
