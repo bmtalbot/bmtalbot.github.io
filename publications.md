@@ -6,8 +6,9 @@ title: Publications
 
 ## **Selected Papers**
 
-**Brooke M Talbot**, Natasia F Jacko, Robert A Petit, David A Pegues, Margot J Shumaker, Timothy D Read, Michael Z David, Unsuspected Clonal Spread of Methicillin-Resistant Staphylococcus aureus Causing Bloodstream Infections in Hospitalized Adults Detected Using Whole Genome Sequencing, 
-Clinical Infectious Diseases, Volume 75, Issue 12, 15 December 2022, Pages 2104–2112,[https://doi.org/10.1093/cid/ciac339](https://doi.org/10.1093/cid/ciac339)
+**Talbot, B. M.**, Jacko, N. F., Petit III, R. A., Pegues, D. A., Shumaker, M. J., Read, T. D., & David, M. Z. (2022). Unsuspected clonal spread of methicillin-resistant Staphylococcus aureus causing bloodstream infections in hospitalized adults detected using whole genome sequencing. Clinical Infectious Diseases, 75(12), 2104-2112.,[https://doi.org/10.1093/cid/ciac339](https://doi.org/10.1093/cid/ciac339)
+
+**Talbot, B. M.**, Clennon, J. A., Rakotoarison, M. F. N., Rautman, L., Durry, S., Ragazzo, L. J., ... & Read, T. D. (2024). Metagenome-wide characterization of shared antimicrobial resistance genes in sympatric people and lemurs in rural Madagascar. [PeerJ, 12, e17805.](https://peerj.com/articles/17805/)
 
 
 ## **Selected Presentations**
